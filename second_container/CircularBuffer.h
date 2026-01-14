@@ -71,6 +71,7 @@ public:
         }
 
         iterator& operator++() { off_++; return *this; }
+        bool operator==(const iterator& other) const {return b_ == other.b_ && off_ == other.off_;}
         bool operator!=(const iterator& other) const { return off_ != other.off_ || b_ != other.b_; }
 
     private:

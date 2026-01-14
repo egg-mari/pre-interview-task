@@ -25,6 +25,6 @@ int main() {
     std::cout << "tempBuffer.empty() = " << (tempBuffer.empty() ? "true" : "false") << "\n";
     std::cout << "maxTemp = " << maxTemp << "\n";
     std::cout << "avgTemp = " << avgTemp << "\n";
-    std::cout << "tempBuffer.front() = " << tempBuffer.front() << "\n";
-    std::cout << "tempBuffer.back() = " << tempBuffer.back() << "\n";
+    std::cout << "tempBuffer.front() = " << tempBuffer.front() << " //가장 오래된 데이터\n";
+    std::cout << "tempBuffer.back() = " << tempBuffer.back() <<  " //가장 최근 데이터";
 }
